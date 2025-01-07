@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="navbar obj-width">
+            <!-- Logo -->
+            <a class="logo" href="index.html">News<span class="dot">.</span></a>
+            <!-- Search Container -->
+            <div class="search-container">
+                <input type="text" placeholder="Search the latest news..." id="Search-input" />
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Categories -->
+    <section class="categories obj-width">
+        <h2>Explore Categories</h2>
+        <div class="tags">
+            <button class="tag" data-category="technology">Technology</button>
+            <button class="tag" data-category="sports">Sports</button>
+            <button class="tag" data-category="business">Business</button>
+            <button class="tag" data-category="health">Health</button>
+            <button class="tag" data-category="entertainment">Entertainment</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="obj-width" id="blog-container">
+        <!-- Blog content will be dynamically injected here -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content obj-width">
+            <p>&copy; 2025 Explore News. All rights reserved.</p>
+            <p>Follow us on <a href="#">Twitter</a> | <a href="#">LinkedIn</a> | <a href="#">Instagram</a></p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
